@@ -1,7 +1,6 @@
 %{
 int count = 0;
 %}
-
 %%
 [aeiouAEIOU]   { count++; }
 [0-9]          { count++; }
